@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <CustomAction
+        Title="AddJsCssFromRootV4"
+        Location="ClientSideExtension.ApplicationCustomizer"
+        ClientSideComponentId="5e2a7edf-e668-4dd2-956f-834c9ca43579"
+        ClientSideComponentProperties="{&quot;testMessage&quot;:&quot;Test message&quot;}">
+    </CustomAction>
+</Elements>

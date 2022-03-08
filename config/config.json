@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "add-js-css-from-root-v-4-application-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/addJsCssFromRootV4/AddJsCssFromRootV4ApplicationCustomizer.js",
+          "manifest": "./src/extensions/addJsCssFromRootV4/AddJsCssFromRootV4ApplicationCustomizer.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "AddJsCssFromRootV4ApplicationCustomizerStrings": "lib/extensions/addJsCssFromRootV4/loc/{locale}.js"
+  }
+}
